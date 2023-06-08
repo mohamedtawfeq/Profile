@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/fontawesome.min.css" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/master.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;800&display=swap" rel="stylesheet">
+    
+  </head>
+  <body>
+    <!-- Start Settings Box -->
+    <div class="settings-box">
+      <div class="toggle-setting">
+        <i class="fad fa-cog"></i>
+      </div>
+      <div class="settings-container">
+        <div class="option-box">
+          <h4>Colors</h4>
+          <ul class="colors-list">
+            <li class="active" data-color="#00e1ff"></li>
+            <li data-color="#e91e63"></li>
+            <li data-color="#fb00ff"></li>
+            <li data-color="#f78d03"></li>
+            <li data-color="#4caf50"></li>
+          </ul>
+        </div>
+        <div class="option-box">
+          <h4>Random Backgrounds</h4>
+          <div class="random-backgrounds">
+            <span class="yes active" data-background="yes">Yes</span>
+            <span class="no" data-background="no">No</span>
+          </div>
+        </div>
+
+        <div class="option-box">
+          <h4>Show Bullets</h4>
+          <div class="bullets-option">
+            <span class="yes active" data-display="show">show</span>
+            <span class="no" data-background="hide">hide</span>
+          </div>
+        </div>
+        <button class="reset-options">Reset Options</button>
+      </div>
+    </div>
+    <!-- End Settings Box -->
+
+    <!-- Start Nav-Bullets -->
+
+    <div class="nav-bullets">
+      <div class="bullet" data-section = ".about-us">
+        <div class="tooltip">About</div>
+      </div>
+      <div class="bullet" data-section = ".skills1">
+        <div class="tooltip">Profsessional Skills</div>
+      </div>
+      <div class="bullet" data-section = ".gallery">
+        <div class="tooltip">Our Gallery </div>
+      </div>
+      <div class="bullet" data-section = ".timeline">
+        <div class="tooltip">Timeline</div>
+      </div>
+    </div>
+
+    <!-- Start Landing Page -->
+      <div class="landing-page">
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="header-area">
+            <div class="logo">Creative CV</div>
+            <ul class="links">
+              <li><a href="#" class="active" data-section = ".about-us"> About</a></li>
+            <li><a href="#" data-section = ".skills1"> Profsessional Skills</a></li>
+            <li><a href="#" data-section = ".gallery"> Our Gallery</a></li>
+            <li><a href="#" data-section = ".timeline"> Timeline</a></li>
+            <li><a href="#" data-section = ".features"> Our features</a></li>
+            <li><a href="#" data-section = ".testimonials"> Testimonials</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="imgperson">
+        <img src="./imgs/photo.jpg" alt="Girl in a jacket" width="150" height="150">
+      </div>
+      <div class="introduction-text">
+        <h1><span>Mohamed Tawfiq</span></h1>
+        <p>
+          WEB DEVELOPER, GRAPHIC DESIGNER, PHOTOGRAPHER
+        </p>
+        <div class="buttonhome">
+          <button class="button1">Hire Me</button>
+          <button class="button1">Download CV</button>
+        </div>
+      </div>
+    </div>
+    <!-- End Landing Page -->
+
+    <!-- Start About Us -->
+    <div class="container">
+      <div class="about-us">
+        <div class="card">
+
+          <div class="info-box box1">
+            <h2>About Us</h2>
+            <p>Hello! I am Anthony Barnett. Web Developer, Graphic Designer and Photographer.</p>
+            <p>Creative CV is a HTML resume template for professionals. Built with Bootstrap 4, Now UI Kit and FontAwesome, this modern and responsive design template is perfect to showcase your portfolio, skills and experience. <a href="https://templateflip.com/templates/creative-cv/" target="_blank">Learn More</a></p>
+
+          </div>
+          <div class="info-box box2">
+            <h2>Basic Information</h2>
+
+            <div class="info">
+
+              <div class="alleft">
+                <div class="left"><strong class="text-uppercase">AGE:</strong></div>
+                <div class="left"><strong class="text-uppercase">EMAIL:</strong></div>
+                <div class="left"><strong class="text-uppercase">PHONE:</strong></div>
+                <div class="left"><strong class="text-uppercase">ADDRESS:</strong></div>
+                <div class="left"><strong class="text-uppercase">LANGUAGE:</strong></div>
+              </div>
+
+              <div>
+                <div class="right">24</div>
+                <div class="right">anthony@company.com</div>
+                <div class="right">+1718-111-0011</div>
+                <div class="right">140, City Center, New York, U.S.A</div>
+                <div class="right">English, German, French</div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+        <!-- <div class="image-box">
+          <img src="./imgs/illustration2.gif" alt="" />
+        </div> -->
+      </div>
+    </div>
+    <!-- End About Us -->
+
+    <!-- Start Our Skills -->
+    <div class="container">
+    <div class="skills1">
+    <div class="herder"><h2>Profsessional Skills</h2></div>
+  <div class="skills2">
+    <div class="skill-bars">
+
+      <div class="chartleft">
+        <div class="bar">
+          <div class="info">
+            <span>Python</span>
+          </div>
+          <div class="progress-line python">
+            <span></span>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="info">
+            <span>MySQL</span>
+          </div>
+          <div class="progress-line mysql">
+            <span></span>
+          </div>
+      </div>
+      <div class="bar">
+        <div class="info">
+          <span>MySQL</span>
+        </div>
+        <div class="progress-line mysql">
+          <span></span>
+        </div>
+      </div>
+    </div>
+
+    </div>
+    <div class="skill-bars">
+      <div class="chartright">
+        <div class="bar">
+          <div class="info">
+            <span>HTML</span>
+          </div>
+          <div class="progress-line html">
+            <span></span>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="info">
+            <span>CSS</span>
+          </div>
+          <div class="progress-line css">
+            <span></span>
+          </div>
+        </div>
+        <div class="bar">
+        <div class="info">
+          <span>jQuery</span>
+        </div>
+        <div class="progress-line jquery">
+          <span></span>
+        </div>
+      </div>
+    </div>
+
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+    <!-- <div class="skills">
+      <div class="container">
+        <h2>Our Skills</h2>
+        <div class="skill-box">
+          <div class="skill-name">HTML</div>
+          <div class="skill-progress">
+            <span data-progress="90%"></span>
+          </div>
+        </div>
+
+        <div class="skill-box">
+          <div class="skill-name">python</div>
+          <div class="skill-progress">
+            <span data-progress="20%"></span>
+          </div>
+        </div>
+
+        <div class="skill-box">
+          <div class="skill-name">C++</div>
+          <div class="skill-progress">
+            <span data-progress="95%"></span>
+          </div>
+        </div>
+
+        <div class="skill-box">
+          <div class="skill-name">CSS</div>
+          <div class="skill-progress">
+            <span data-progress="40%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">JavaScript</div>
+          <div class="skill-progress">
+            <span data-progress="60%"></span>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- End Our Skills -->
+
+    <!-- Start Gallery -->
+    <div class="gallery">
+      <div class="container">
+        <h2>Our Gallery</h2>
+        <div class="images-box">
+          
+          <img src="./imgs/01.jpg" alt="imgs_1" />
+          <img src="./imgs/03.jpg" alt="imgs_2" />
+          <img src="./imgs/03.jpg" alt="imgs_2" />
+          <img src="./imgs/03.jpg" alt="imgs_2" />
+          <img src="./imgs/03.jpg" alt="imgs_2" />
+          <img src="./imgs/08.jpg" alt="imgs_7" />
+          <img src="./imgs/08.jpg" alt="imgs_7" />
+          <img src="./imgs/08.jpg" alt="imgs_7" />
+          <img src="./imgs/08.jpg" alt="imgs_7" />
+          <img src="./imgs/04.jpg" alt="imgs_3" />
+          <img src="./imgs/07.jpg" alt="imgs_6" />
+          <img src="./imgs/08.jpg" alt="imgs_7" />
+          <img src="./imgs/09.jpg" alt="imgs_8" />
+          <img src="./imgs/01.jpg" alt="imgs_10" />
+        </div>
+      </div>
+    </div>
+    <!-- End Gallery -->
+
+    <!-- Start Timeline -->
+    <div class="timeline">
+      <div class="container">
+        <div class="timeline-content">
+          
+          <div class="year">2018</div>
+
+          <div class="left">
+            <div class="content">
+              <h3>Testing Heading</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo,
+                quas pariatur! Esse modi, incidunt quibusdam ipsam cupiditate
+                laboriosam perferendis velit sapiente nisi earum sit quas vero
+                inventore magni animi est?
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+            <div class="right">
+              <div class="content">
+                <h3>Testing Heading</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo,
+                  quas pariatur! Esse modi, incidunt quibusdam ipsam cupiditate
+                  laboriosam perferendis velit sapiente nisi earum sit quas vero
+                  inventore magni animi est?
+                </p>
+              </div>
+            </div>
+
+          <div class="clearfix"></div>
+          <div class="year">2016</div>
+          <div class="left">
+            <div class="content">
+              <h3>Testing Heading</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo,
+                quas pariatur! Esse modi, incidunt quibusdam ipsam cupiditate
+                laboriosam perferendis velit sapiente nisi earum sit quas vero
+                inventore magni animi est?
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="left">
+            <div class="content">
+              <h3>Testing Heading</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo,
+                quas pariatur! Esse modi, incidunt quibusdam ipsam cupiditate
+                laboriosam perferendis velit sapiente nisi earum sit quas vero
+                inventore magni animi est?
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+
+      </div>
+    </div>
+
+    
+    <!-- End Timeline -->
+    
+    <!-- Start features -->
+    
+    <div class="features">
+      <h2>Our features</h2>
+      <div class="container">
+    <div class="feat-box">
+      <img src="./imgs/icon_01.png" alt="">
+      <div class="cercal"></div>
+      <h4>Divelopment</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim numquam blanditiis qui aut.</p>
+    </div>
+
+    <div class="feat-box">
+      <img src="./imgs/icon_02.png" alt="">
+      <div class="cercal"></div>
+      <h4>Divelopment</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim numquam blanditiis qui aut.</p>
+    </div>
+
+    <div class="feat-box">
+      <img src="./imgs/icon_03.png" alt="">
+      <div class="cercal"></div>
+      <h4>Divelopment</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim numquam blanditiis qui aut.</p>
+    </div>
+
+    <div class="feat-box">
+      <img src="./imgs/icon_04.png" alt="">
+      <div class="cercal"></div>
+      <h4>Divelopment</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim numquam blanditiis qui aut.</p>
+    </div>
+    
+    <div class="feat-box">
+      <img src="./imgs/icon_05.png" alt="">
+      <div class="cercal"></div>
+      <h4>Divelopment</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim numquam blanditiis qui aut.</p>
+    </div>
+    
+    <div class="feat-box">
+      <img src="./imgs/icon_06.png" alt="">
+      <div class="cercal"></div>
+      <h4>Divelopment</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim numquam blanditiis qui aut.</p>
+    </div>
+    <div class="clearfix"></div>
+  </div>
+</div>
+<!-- End Features -->
+
+<!-- Start Testimonials -->
+
+<div class="testimonials">
+  <div class="container">
+    <h2>Testimonials</h2>
+    <div class="ts-box">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quisquam expedita impedit ?</p>
+      <div class="person-info">
+        <img src="./imgs/10.jpg" alt="">
+        <h4>Mohamed Tawfiq</h4>
+        <p>CEO At Company</p>
+      </div>
+    </div>
+    
+
+    <div class="ts-box">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quisquam expedita impedit ?</p>
+      <div class="person-info">
+        <img src="./imgs/mohamed.jpg" alt="">
+        <h4>Mohamed salam</h4>
+        <p>I am gay</p>
+      </div>
+    </div>
+
+    <div class="ts-box">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quisquam expedita impedit ?</p>
+      <div class="person-info">
+        <img src="./imgs/jony.jpg" alt="">
+        <h4>Jony fuck</h4>
+        <p>CEO At Company</p>
+      </div>
+    </div>
+  </div>
+</div> 
+
+<!-- End Testimonials -->
+
+<!-- Start Contact Us -->
+  <div class="contact">
+    <form>
+
+      <div class="container">
+        <div class="input1">
+          <h2>Contact Me</h2>
+          <div class="input22">
+            <div class="input2" >
+              <div><h4>Feel free to contact me</h4></div>
+                <input class="input" type="text" name="name" placeholder="Name" required="required"/>
+                <input class="input" type="text" name="name" placeholder="Subject" required="required"/>
+                <input class="input" type="text" name="name" placeholder="E-mail" required="required"/>
+                <textarea class="inputmass" type="text" name="name" placeholder="Your Message" required="required"></textarea>
+                <div>
+                  <button class="buttoninput" type="submit">Send</button>
+                </div>
+              </div>
+              
+              <div class="input3">
+                <div class="rightinput"><strong class="text-uppercase">Address</strong><div><span>140, City Center, New York, U.S.A</span></div></div>
+                <div class="rightinput"><strong class="text-uppercase">Phone</strong><div><span>+1718-111-0011</span></div></div>
+                <div class="rightinput"><strong class="text-uppercase">Email</strong><div><span>anthony@company.com</span></div></div>
+              </div>
+            </div>
+            
+          </form>
+        </div>
+
+
+      <!-- <form action="">
+        <div class="left">
+        <input type="text" placeholder="Your Name" name="username">
+        <input type="text" placeholder="Your Phone" name="phone">
+        <input type="email" placeholder="Your email" name="email">
+        <input type="text" placeholder="subject" name="subject">
+      </div>
+      <div class="right">
+        <textarea name="message" placeholder="Your Message"></textarea>
+        <input type="submit" value="send">
+      </div>
+      </form> -->
+    </div>
+  </div>
+
+
+<!-- End Contact Us -->
+      <script src="./js/master.js"></script>
+      </body>
+    </html>
+    
